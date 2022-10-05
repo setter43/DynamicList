@@ -1,0 +1,44 @@
+/* 
+. for Class
+# for ID 
+*/
+
+.vehicle_Entity{
+    background-color: rosybrown;
+}
+.aircraft_Entity{
+    background-color: skyblue;
+}
+.lifeform_Entity{
+    background-color: lemonchiffon;
+}
+.button_section{
+    width: 20%;
+    float: right;
+}
+.button_section h1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 650;
+}
+.button_section button {
+    background: #4ac7be;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    color: #fff;
+    cursor: pointer;
+    font: 300 16px/1.5 'Roboto', sans-serif;
+    transition: background 0.3s linear;
+  }
+  
+  .button_section button:hover {
+    background: #097fb7;
+  }
+  .button_section img, object{
+    width: 20%;
+    height: 40px;
+  }
